@@ -9,18 +9,6 @@ The decoder processes the input bits and uses a clustering algorithm to determin
 The code first decodes the binary string into Morse code by identifying the lengths of ones and zeros, representing dots, dashes, and spaces. 
 Then, it clusters the lengths to differentiate between dots, dashes, and spaces within characters and words. Finally, it translates the clustered Morse code into human-readable text.
 
-Binary-encoded Morse Code Input
-              |
-              v
-Decode Bits into Morse Code
-              |
-              v
-Cluster Lengths to Differentiate Morse Code Elements
-              |
-              v
-Translate Morse Code to Text
-              |
-              v
-Human-readable Text Output
+Binary-encoded Morse Code Input ==>> Decode Bits into Morse Code ==>> Cluster Lengths to Differentiate Morse Code Elements ==>>Translate Morse Code to Text ==>> Human-readable Text Output
 
 
