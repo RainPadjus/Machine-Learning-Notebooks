@@ -58,3 +58,17 @@ The code carries out the following steps:
 4. Access the webcam feed and display predictions in real-time.
 
 The classifier can differentiate between Samoyed dogs and people based on the webcam feed, providing a practical example of real-time object recognition using deep learning.
+
+
+## Awesome Autoencoder
+
+An exciting and educational project implementing an autoencoder, a unique type of neural network used to learn efficient encodings of input data. The autoencoder uses the famous MNIST dataset of handwritten digits.
+
+### Inside the Autoencoder
+Our autoencoder comprises an **encoder** and a **decoder**. The encoder compresses input data, while the decoder reconstructs the original data from this compressed form.
+
+### Training and Evaluation
+We train the autoencoder using the Adam optimizer and Mean Squared Error (MSE) as the loss function. After training, we evaluate its performance on a test set.
+
+### Visualization
+We provide a visualization section that displays test images, their encoded representations, and the reconstructed images.
